@@ -8,14 +8,6 @@ const TodoList = () => {
 
     // const [count, setCount] = useState(0);
 
-    // const [taskList,setTaskList] = useState([
-    //     {text:'DHA_19 Applied System Engineering',completed:false},
-    //     {text:'Practical Assignment of ML Lab',completed:false},
-    //     {text:'Gfr sir Assignment questions ',completed:false},
-    //     {text:'Gfr sir Assignment Viva For AA',completed:false},
-    //     {text:'Portfolio website left',completed:false},
-    // ]);   // commented the self added tasks
-
     const [taskList,setTaskList] = useState([]);
 
     const addNewTask = (e) => {
